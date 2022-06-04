@@ -1,0 +1,89 @@
+{
+	"0": {
+		"class": "fa-dashboard",
+		"target": "",
+		"Text": "Dashboard",
+		"Url": "class_public/dashboard"
+	},
+	"1": {
+		"class": "fa-files-o",
+		"target": "",
+		"Text": "Change Password",
+		"Url": "class_public/change_password"
+	},
+	"2": {
+		"class": "fa-files-o",
+		"target": "",
+		"Text": "My Package",
+		"Url": "class_public/get_package"
+	},
+	"3": {
+		"class": "fa-files-o",
+		"target": "",
+		"Text": "Nominiee Detail",
+		"Url": "class_public/get_nomnee"
+	},
+	"4": {
+		"class": "fa-files-o",
+		"target": "",
+		"Text": "Bank Detail",
+		"Url": "class_public/get_bank"
+	},	
+	"5": {
+		"class": "fa-files-o",
+		"target": "",
+		"Text": "Appointment",
+		"Url": "class_public/request"
+	},
+	"6": {
+		"class": "fa-files-o",
+		"target": "",
+		"Text": "Pending Appintment",
+		"Url": "class_public/get_request"
+	},
+	"7": {
+		"class": "fa-files-o",
+		"target": "",
+		"Text": "Share Your Link",
+		"Url": "class_public/your_link"
+	},
+	"8": {
+		"class": "fa-files-o",
+		"Text": "Reports",
+		"Url": "",
+		"submenu_num":4,
+		"submenu": {
+			"8_1": {
+				"class": "fa-circle-o",
+				"Text": "Binary View Report",
+				"Url": "user/view_report"
+			},
+			"8_2": {
+				"class": "fa-circle-o",
+				"Text": "Bussiness Level",
+				"Url": "user/bussinessLevel"
+			},
+			"8_3": {
+				"class": "fa-circle-o",
+				"Text": "Bussiness Volume",
+				"Url": "user/bussiness"
+			},
+			"8_4": {
+				"class": "fa-circle-o",
+				"Text": "Travel Point Report",
+				"Url": "user/tpoint"
+			},
+			"8_5": {
+				"class": "fa-circle-o",
+				"Text": "Downline Details",
+				"Url": "user/downlineDetail"
+			}
+		}
+	},
+	"9": {
+		"class": "fa-files-o",
+		"target": "_blank",
+		"Text": "Privecy Term & Condition",
+		"Url": "class_public/term"
+	}
+}

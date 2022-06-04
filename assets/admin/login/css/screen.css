@@ -1,0 +1,188 @@
+/**********************************
+
+Use: Main Screen Import
+
+***********************************/
+
+@import "reset.css";
+@import "core.css";
+
+@import "cmxformTemplate.css";
+@import "cmxform.css";
+
+.login_submit {
+	color:#fff !important;
+	background: #3c8dbc;
+	border: 0px !important;
+	padding: 8px !important;
+	font-size: 16px !important;
+}
+.login_back {
+    height: 100% !important;
+    background-color: #3c8dbc;
+    background-image: radial-gradient(circle farthest-side at center top, #3c8dbc 0%, #3c8dbc 100%);
+    background-image: radial-gradient(circle farthest-side at center top, #3c8dbc 0%, #3c8dbc 100%);
+    background-image: radial-gradient(circle farthest-side at center top, #3c8dbc 0%, #3c8dbc 100%);
+    background-image: radial-gradient(circle farthest-side at center top, #3c8dbc 0%, #3c8dbc 100%);
+    background-image: radial-gradient(circle farthest-side at center top, #3c8dbc 0%, #3c8dbc 100%);
+    background-image: radial-gradient(circle farthest-side at center top, #3c8dbc 0%, #3c8dbc 100%);
+}
+.panel-heading.login_header {
+    text-align: center;
+    font-size: 20px;
+    color: #FFF !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #08517b !important;
+}
+.new_form {
+    padding: 0px 28px !important;
+}
+.color_bg {
+    padding: 7% 0%;
+    display:block;
+    overflow: hidden;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    -o-box-shadow: inset 0 3px 3px -3px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: inset 0 3px 3px -3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 3px 3px -3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 3px 3px -3px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 3px 3px -3px rgba(0, 0, 0, 0.3);
+}
+.logo_image {
+    text-align: center;
+    padding-bottom: 4%;
+}
+.login-input .glyphiconLinkColor {
+    position: absolute;
+    top: 10px;
+    left: 24px;
+    color: #AFAFAF;
+}
+.new_form {
+    margin-bottom: 0px;
+    /* position: relative; */
+}
+
+
+.bg-bubbles {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 92%;
+  height: 100%;
+  z-index: 1;
+  margin-bottom:0px;
+}
+.bg-bubbles li {
+	position:absolute;
+  list-style: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.15);
+  bottom: -160px;
+  -webkit-animation: square 25s infinite;
+  animation: square 25s infinite;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  bottom:0px;
+}
+.bg-bubbles li:nth-child(1) {
+  left: 10%;
+}
+.bg-bubbles li:nth-child(2) {
+  left: 20%;
+  width: 80px;
+  height: 80px;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
+}
+.bg-bubbles li:nth-child(3) {
+  left: 25%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.bg-bubbles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation-duration: 22s;
+          animation-duration: 22s;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.bg-bubbles li:nth-child(5) {
+  left: 70%;
+}
+.bg-bubbles li:nth-child(6) {
+  left: 80%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.bg-bubbles li:nth-child(7) {
+  left: 32%;
+  width: 160px;
+  height: 160px;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+.bg-bubbles li:nth-child(8) {
+  left: 55%;
+  width: 20px;
+  height: 20px;
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+}
+.bg-bubbles li:nth-child(9) {
+  left: 25%;
+  width: 10px;
+  height: 10px;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.bg-bubbles li:nth-child(10) {
+  left: 90%;
+  width: 160px;
+  height: 160px;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+@-webkit-keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+            transform: translateY(-700px) rotate(600deg);
+  }
+}
+@keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+            transform: translateY(-700px) rotate(600deg);
+  }
+}]
+
+
+span.logo-lg img {
+    margin-right: 6px;
+}

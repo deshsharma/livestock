@@ -1,0 +1,155 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600';
+body {
+  background: url(<?= base_url('assets/main/login/Health-Insurance.jpg')?>) center top no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+.overlay {
+  background: rgba(52, 69, 87, 0.5);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  transition: all .2s ease;
+  overflow: hidden;
+}
+.text-default{
+color: #f9570a;
+margin-left: 14px;
+}
+.success {
+  display: none;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 55px;
+}
+
+.login {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #252F39;
+  display: block;
+  width: 280px;
+  box-shadow: 0 0 45px 5px rgba(0, 0, 0, .35);
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+.for_set{ color:#fff; margin-left:32%; margin-bottom:5px;}
+.for_set:hover{ color:#C92C26; }
+.login input {
+  display: block;
+  width: 255px;
+  margin-bottom: 15px;
+  background: #F4F4F4;
+  color: #000;
+  font-weight:bold;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin: 15px;
+  transition: all .2s ease;
+}
+
+.login input:hover {
+  opacity: 0.5;
+}
+
+.login input:focus {
+  background: #eee;
+  opacity: 0.5;
+  color: #000;
+}
+
+.login .button {
+  width: 254px !important;
+  background: #F3463C !important;
+  color:#fff;
+}
+.but_set a{ float:right; color:#fff; margin-right:10px;}
+.but_set:hover{color:#F3463C !important;}
+
+#tabs {
+  margin: -6px -6px;
+}
+
+ul.tabs li a {
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+  outline: none;
+}
+
+.ui-tabs-active > a {
+  text-decoration: underline;
+  font-size: 10px;
+  background: #F3463C !important;
+}
+
+.ui-state-default > a {
+  text-decoration: underline;
+  font-size: 10px;
+  background: #737373;
+  width: 140px;
+  text-align: center;
+}
+
+.ui-tabs {
+  position: relative;
+  padding: .2em;
+  margin-bottom: 15px;
+}
+
+.ui-tabs .ui-tabs-nav {
+  margin: 0;
+  padding: .2em .2em 0;
+}
+
+.ui-tabs .ui-tabs-nav li {
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 0;
+  margin: 0;
+  border-bottom-width: 0;
+  padding: 0;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  float: left;
+  padding: .5em 1em;
+  margin: 0;
+  text-decoration: none;
+  background:#555;
+}
+
+.overlay-success {
+  background: rgba(52,73,94, .97) !important;
+  transition: all 1s ease;
+}
+
+.overlay-fail {
+  background: rgba(231, 76, 60,.85) !important;
+  transition: all 1s ease;
+}
+
+.contact {
+  color: rgba(255,255,255,.6);
+  position:fixed;
+  font-size: 16px;
+  bottom: 10px;
+  right: 10px;
+}
+.contact:hover {
+  text-decoration:none;
+  color: rgba(255,255,255,.6);
+}

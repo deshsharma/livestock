@@ -1,0 +1,542 @@
+{
+	"0": {
+		"class": "fa-dashboard",
+		"Text": "Dashboard",
+		"Url": "admin/dashboard"
+	},
+	"1": {
+		"class": "fa-files-o",
+		"Text": "Admin",
+		"Url": "",
+		"submenu_num":2,
+		"submenu": {
+			"1_1": {
+				"class": "fa-circle-o",
+				"Text": "Profile",
+				"Url": "admin/user_profile"
+			},
+			"1_2": {
+				"class": "fa-circle-o",
+				"Text": "Page Roles",
+				"Url": "admin/role"
+			},
+			"1_3": {
+				"class": "fa-circle-o",
+				"Text": "Sub Users",
+				"Url": "admin/sys_user"
+			},
+			"1_4": {
+				"class": "fa-circle-o",
+				"Text": "Language Management",
+				"Url": "admin/language"
+			},
+			"1_5": {
+				"class": "fa-circle-o",
+				"Text": "Set Location",
+				"Url": "admin/location"
+			},
+			"1_6": {
+				"class": "fa-circle-o",
+				"Text": "Semen Account Detail",
+				"Url": "admin/semen_account"
+			},
+			"1_7": {
+				"class": "fa-circle-o",
+				"Text": "Retailer Package",
+				"Url": "admin/retailer_package"
+			},
+			"1_8": {
+				"class": "fa-circle-o",
+				"Text": "Distributor",
+				"Url": "admin/retailer_distributor"
+			},
+			"1_9": {
+				"class": "fa-circle-o",
+				"Text": "Retailer",
+				"Url": "admin/retailer_sub_retailer"
+			},
+			"1_10": {
+				"class": "fa-circle-o",
+				"Text": "Section Properties",
+				"Url": "admin/section_prop"
+			},
+			"1_11": {
+				"class": "fa-circle-o",
+				"Text": "Feed Composition",
+				"Url": "admin_composition"
+			},
+			"1_12": {
+				"class": "fa-circle-o",
+				"Text": "Feed Composition Request",
+				"Url": "comp_request"
+			},
+			"1_13": {
+				"class": "fa-circle-o",
+				"Text": "Employee",
+				"Url": "employee"
+			}
+		}
+	},
+	"2": {
+		"class": "fa-files-o",
+		"Text": "Veterinarian Management",
+		"Url": "admin/doctor"
+	},
+	"3": {
+		"class": "fa-files-o",
+		"Text": "User Management",
+		"Url": "admin/user"
+	},
+	"4": {
+		"class": "fa-files-o",
+		"Text": "Animal Management",
+		"Url": "admin/animal"
+	},
+	"5": {
+		"class": "fa-files-o",
+		"Text": "Treatment Management",
+		"Url": "admin/treatment"
+	},
+	"6": {
+		"class": "fa-files-o",
+		"Text": "Paravet Management",
+		"Url": "admin/add_paravate"
+	},	
+	"24": {
+		"class": "fa-files-o",
+		"Text": "District Management",
+		"Url": "admin/dis_list"
+	},
+	"7": {
+		"class": "fa-files-o",
+		"Text": "Paravate Order",
+		"Url": "admin/parvate_order"
+	},
+	"8": {
+		"class": "fa-files-o",
+		"Text": "Lab Management",
+		"Url": "admin/lab_request"
+	},
+	"9": {
+		"class": "fa-files-o",
+		"Text": "Lab Test Request",
+		"Url": "admin/lab_test_request"
+	},			
+	"10": {
+		"class": "fa-files-o",
+		"Text": "Feed Company Registration",
+		"Url": "",
+		"submenu_num":2,
+		"submenu": {
+			"10_1": {
+				"class": "fa-circle-o",
+				"Text": "Feed Company Registration",
+				"Url": "admin/add_comp"
+			},
+			"10_2": {
+				"class": "fa-circle-o",
+				"Text": "Semen Company Registration",
+				"Url": "admin/add_seman_comp"
+			},
+			"10_3": {
+				"class": "fa-circle-o",
+				"Text": "Premium Dary Farms",
+				"Url": "admin/add_dary_farms"
+			}
+		}
+	},
+	"11": {
+		"class": "fa-files-o",
+		"Text": "Livestoc Business/Semen",
+		"Url": "",
+		"submenu_num":2,
+		"submenu": {
+			"11_2": {
+				"class": "fa-circle-o",
+				"Text": "Bull Management",
+				"Url": "admin/bull"
+			},
+			"11_3": {
+				"class": "fa-circle-o",
+				"Text": "Semen Stock",
+				"Url": "admin/semen_stock_list"
+			},
+			"11_4": {
+				"class": "fa-circle-o",
+				"Text": "Bank",
+				"Url": "admin/sub_user"
+			},
+			"11_5": {
+				"class": "fa-circle-o",
+				"Text": "Distributors",
+				"Url": "admin/distributors"
+			},
+			"11_6": {
+				"class": "fa-circle-o",
+				"Text": "Suppliers",
+				"Url": "admin/suppliers"
+			},
+			"11_7": {
+				"class": "fa-circle-o",
+				"Text": "Notifications",
+				"Url": "admin/notification"
+			},
+			"11_8": {
+				"class": "fa-circle-o",
+				"Text": "Total Sales Order",
+				"Url": "admin/sale"
+			},
+			"11_9": {
+				"class": "fa-circle-o",
+				"Text": "Pending Order",
+				"Url": "admin/sale"
+			},
+			"11_10": {
+				"class": "fa-circle-o",
+				"Text": "Transfer Semen",
+				"Url": "admin/transfer_semen"
+			},
+			"11_11": {
+				"class": "fa-circle-o",
+				"Text": "Proforma Invoice",
+				"Url": "admin/proforma_invoice"
+			},
+			"11_12": {
+				"class": "fa-circle-o",
+				"Text": "Stoc Transfer",
+				"Url": "admin/semen_stock_by_transfer"
+			},
+			"11_13": {
+				"class": "fa-circle-o",
+				"Text": "Manage Company Semen Price",
+				"Url": "admin/semen_company_price"
+			},
+			"11_14": {
+				"class": "fa-circle-o",
+				"Text": "Semen Group Management",
+				"Url": "admin/semen_group"
+			},
+			"11_15": {
+				"class": "fa-circle-o",
+				"Text": "Semen Group Discount Management",
+				"Url": "admin/semen_group_discount"
+			},
+			"11_16": {
+				"class": "fa-circle-o",
+				"Text": "Semen Packages",
+				"Url": "admin/semen_packages"
+			}
+		}
+	},
+	"12": {
+		"class": "fa-files-o",
+		"Text": "Mapping Management",
+		"Url": "",
+		"submenu_num":2,
+		"submenu": {
+			"12_1": {
+				"class": "fa-circle-o",
+				"Text": "State Management",
+				"Url": "admin/state"
+			},
+			"12_2": {
+				"class": "fa-circle-o",
+				"Text": "District Management",
+				"Url": "admin/district"
+			},
+			"12_3": {
+				"class": "fa-circle-o",
+				"Text": "Tehshil Management",
+				"Url": "admin/teshil"
+			},
+			"12_4": {
+				"class": "fa-circle-o",
+				"Text": "Village Management",
+				"Url": "admin/village"
+			},
+			"12_5": {
+				"class": "fa-circle-o",
+				"Text": "GVH Management",
+				"Url": "admin/gvh"
+			},
+			"12_6": {
+				"class": "fa-circle-o",
+				"Text": "GVD Management",
+				"Url": "admin/gvd"
+			},
+			"12_7": {
+				"class": "fa-circle-o",
+				"Text": "Employee Management",
+				"Url": "admin/employee"
+			}
+		}
+	},
+	"13": {
+		"class": "fa-dashboard",
+		"Text": "News Letter Subscriber",
+		"Url": "admin/subscribe"
+	},
+	"14": {
+		"class": "fa-files-o",
+		"Text": "Ecommerce Management",
+		"Url": "",
+		"submenu_num":2,
+		"submenu": {
+			"14_1": {
+				"class": "fa-circle-o",
+				"Text": "Unit",
+				"Url": "admin/unit"
+			},
+			"14_2": {
+				"class": "fa-circle-o",
+				"Text": "Package",
+				"Url": "admin/package"
+			},
+			"14_3": {
+				"class": "fa-circle-o",
+				"Text": "Colour",
+				"Url": "admin/colour"
+			},
+			"14_4": {
+				"class": "fa-circle-o",
+				"Text": "Section",
+				"Url": "admin/section"
+			},
+			"14_5": {
+				"class": "fa-circle-o",
+				"Text": "Category",
+				"Url": "admin/product_category"
+			},
+			"14_6": {
+				"class": "fa-circle-o",
+				"Text": "Vendor",
+				"Url": "admin/vendor"
+			},
+			"14_7": {
+				"class": "fa-circle-o",
+				"Text": "Product",
+				"Url": "admin/product"
+			},
+			"14_8": {
+				"class": "fa-circle-o",
+				"Text": "Stock",
+				"Url": "admin/pro_stock"
+			},
+			"14_9": {
+				"class": "fa-circle-o",
+				"Text": "Oreders",
+				"Url": "admin/orders"
+			},
+			"14_10": {
+				"class": "fa-circle-o",
+				"Text": "Add Distributors",
+				"Url": "admin/pro_district"
+			},
+			"14_11": {
+					"class": "fa-circle-o",
+					"Text": "Add Retailers",
+					"Url": "admin/pro_retailer"
+			},
+			"14_12": {
+						"class": "fa-circle-o",
+						"Text": "Manage Offers",
+						"Url": "admin/ecom_offer"
+			},
+			"14_13": {
+						"class": "fa-circle-o",
+						"Text": "Manage Hub",
+						"Url": "admin/ecom_hub"
+			},
+			"14_14": {
+						"class": "fa-circle-o",
+						"Text": "Manage Hub Employee",
+						"Url": "admin/hub_employee"
+			},
+			"14_15": {
+						"class": "fa-circle-o",
+						"Text": "Vehicle type",
+						"Url": "admin/v_type"
+			},
+			"14_16": {
+						"class": "fa-circle-o",
+						"Text": "Suppliers",
+						"Url": "admin/pro_supplier"
+			},
+			"14_17": {
+						"class": "fa-circle-o",
+						"Text": "Transportor Level1",
+						"Url": "admin/transportatin_level_one"
+			},
+			"14_18": {
+						"class": "fa-circle-o",
+						"Text": "Delivery Account",
+						"Url": "admin/delivery_partner"
+			}
+		}
+	},	
+	"15": {
+		"class": "fa-dashboard",
+		"Text": "Livestoc Cash",
+		"Url": "admin/livestoc_balance"
+	},
+	"16": {
+		"class": "fa-dashboard",
+		"Text": "Product Interest Leads",
+		"Url": "admin/product_interest"
+	},	
+	"17": {
+		"class": "fa-dashboard",
+		"Text": "Videos Tutorials",
+		"Url": "admin/videos"
+	},
+	"18": {
+		"class": "fa-dashboard",
+		"Text": "Call log",
+		"Url": "admin/calllogs"
+	},
+	"19": {
+		"class": "fa-dashboard",
+		"Text": "API LIST",
+		"Url": "admin/apislist"
+	},
+	"20": {
+		"class": "fa-dashboard",
+		"Text": "Account",
+		"Url": "admin/account"
+	},
+	"21": {
+		"class": "fa-dashboard",
+		"Text": "Business Leads",
+		"Url": "admin/dashboard"
+	},
+	"22": {
+		"class": "fa-dashboard",
+		"Text": "Sale Reports",
+		"Url": "admin/salereports"
+	},
+	"23":{
+		"class": "fa-dashboard",
+		"Text": "Language Library",
+		"Url": "admin/language_library"
+	},
+	"25":{
+		"class": "fa-dashboard",
+		"Text": "Milk Yield Test Request",
+		"Url": "admin/yield_test_request"
+	},			
+	"26": {
+		"class": "fa-files-o",
+		"Text": "Farmer Product Management",
+		"Url": "",
+		"submenu_num":2,
+		"submenu": {
+			"26_1": {
+				"class": "fa-circle-o",
+				"Text": "Farmenr Category",
+				"Url": "admin/farmer_cat"
+			},
+			"26_2": {
+				"class": "fa-circle-o",
+				"Text": "Farmers Feed Ingredients",
+				"Url": "admin/farmers_feed_ingredients"
+			},
+			"26_3": {
+				"class": "fa-circle-o",
+				"Text": "Premium Dary Farms",
+				"Url": "admin/add_dary_farms"
+			}
+		}
+	},	
+	"27": {
+		"class": "fa-dashboard",
+		"Text": "Cron Management",
+		"Url": "admin/cron"
+	},
+	"28": {
+		"class": "fa-files-o",
+		"Text": "Medicine",
+		"Url": "",
+		"submenu_num":2,
+		"submenu": {
+			"28_1": {
+				"class": "fa-circle-o",
+				"Text": "Medicine Type",
+				"Url": "admin/medicine_type"
+			},
+			"28_2": {
+				"class": "fa-circle-o",
+				"Text": "Medicine",
+				"Url": "admin/medicine"
+			},
+			"28_3": {
+				"class": "fa-circle-o",
+				"Text": "Premium Dary Farms",
+				"Url": "admin/add_dary_farms"
+			}
+		}
+	},
+	"29": {
+		"class": "fa-dashboard",
+		"Text": "Dewarming Management",
+		"Url": "admin/dewarming"
+	},
+	"30": {
+		"class": "fa-dashboard",
+		"Text": "Payment Details",
+		"Url": "admin/payment"
+	},
+	"31": {
+		"class": "fa-dashboard",
+		"Text": "Pet Vaccination",
+		"Url": "admin/pet_vaccination"
+	},	
+	"32": {
+		"class": "fa-files-o",
+		"Text": "Upgrade to Premium",
+		"Url": "",
+		"submenu_num":2,
+		"submenu": {
+			"32_1": {
+				"class": "fa-circle-o",
+				"Text": "AI Upgrade to premium",
+				"Url": "admin/upgrade_ai_worker"
+			},
+			"32_2": {
+				"class": "fa-circle-o",
+				"Text": "User upgrade to premium",
+				"Url": "admin/users_premium"
+			}
+		}
+	},
+	"33": {
+		"class": "fa-dashboard",
+		"Text": "Repeat Breading",
+		"Url": "repeat_breading"
+	},
+	"34": {
+		"class": "fa-dashboard",
+		"Text": "Animal Sell Purchase",
+		"Url": "animal_sell_purchase"
+	},
+	"35": {
+		"class": "fa-dashboard",
+		"Text": "Animal Evaluator",
+		"Url": "evaluation"
+	}	
+	,
+	"36": {
+		"class": "fa-dashboard",
+		"Text": "User Negotiation",
+		"Url": "user_negotiation"
+	},
+	"37": {
+		"class": "fa-dashboard",
+		"Text": "Unproductive Animals",
+		"Url": "unproductive_animals"
+	},
+	"38": {
+		"class": "fa-dashboard",
+		"Text": "Livestoc Purchase Animal",
+		"Url": "purchase_animals"
+	}	
+}

@@ -1,0 +1,403 @@
+body {
+  background:#777;
+}
+
+#background {
+    width:300px;
+    height:400px;
+    background:gray;
+    margin:50px auto;
+    -webkit-animation:bgChange 2s 2s alternate infinite;
+    transition: all 2s ease;
+}
+
+button {
+    border:0;
+    color:#fff;
+}
+
+
+#result {
+    display:block;
+    font-family: sans-serif;
+    width:230px;
+    height:40px;
+    margin:10px auto;
+    text-align: right;
+    border:0;
+    background:#3b3535;
+    color:#999;
+
+    font-size:25px;
+    margin-left: 25px;
+    outline: none;
+    overflow: hidden;
+    letter-spacing: 4px;
+    position: relative;
+
+}
+/*.pizza_font{ font-size:14px; padding:5px;
+	
+}*/
+
+#result:hover {
+    
+    cursor: text;
+    
+}
+
+#first-rows {
+    margin-bottom: 20px;
+    position: relative;
+    top:10px;
+}
+
+.rows {
+    width:300px;
+    margin-top:10px;
+}
+
+#delete {
+    width:110px;
+    height:50px;
+    margin-left:25px;
+    border-radius:4px;
+}
+
+/* Aligning the division and dot button properly */
+.fall-back {
+    margin-left:3px !important;
+}
+
+/* Aligning the addition and equals to button properly */
+.align {
+    margin-left: 6px !important;
+}
+
+/* Button styling */
+.btn-style {
+    width:50px;
+    height:50px;
+    margin-left:5px;
+    border-radius:4px;
+}
+
+.eqn {
+    width:50px;
+    height:50px;
+    margin-left:5px;
+    border-radius:4px;
+}
+
+.first-child {
+ margin-left:25px;
+}
+
+
+/* Adding background color to the number values */
+ .num-bg {
+    background:#000;
+    color:#fff;
+    font-size:26px;
+    cursor:pointer;
+    outline:none;
+    border-bottom:3px solid #333;
+}
+
+ .num-bg:active {
+    background:#000;
+    color:#fff;
+    font-size:26px;
+    cursor:pointer;
+    outline:none;
+    box-shadow: inset 5px 5px 5px #555;
+}
+
+/*Adding background color to the operator values */ 
+.opera-bg {
+    background:#333;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    border-bottom:3px solid #555;
+}
+
+.opera-bg:active {
+    background:#333;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    box-shadow: inset 4px 4px 4px #555;
+}
+
+/*Adding a background color to the delete button */
+.del-bg {
+    background:#24b4de;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    border-bottom:3px solid #399cb9;
+}
+.but_logout{
+}
+.but_logout a{
+	color: #333;
+	text-decoration:none;
+}
+
+.del-bg:active {
+    background:#24b4de;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    box-shadow: inset 4px 4px 4px #399cb9;
+}
+
+/*Adding a background color to the equals to button */
+#eqn-bg {
+    background:#17a928;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    border-bottom:3px solid #1f7a29;
+}
+
+#eqn-bg:active {
+    background:#17a928;
+    color:#fff;
+    font-size:26px;
+    cursor: pointer;
+    outline:none;
+    box-shadow: inset 4px 4px 4px #1f7a29;
+}
+
+@-webkit-keyframes bgChange {
+    0% {
+       background:#24b4de; 
+    }
+    
+    50% {
+      background:#17a928;
+    }
+    
+    100% {
+        background:#399cb9;
+    }
+}
+
+#overlay_form{
+position: absolute;
+border: 5px solid gray;
+padding: 10px;
+background: white;
+width:600px;
+height: 500px;
+}
+#pop{
+display: block;
+border: 1px solid gray;
+width: 130px;
+text-align: center;
+padding: 6px;
+border-radius: 5px;
+text-decoration: none;
+
+}
+.set_med{
+
+    background: #ccc; border-radius: 9px; padding: 15px;
+}
+.set_med1{
+
+    background: #999; 
+    border-radius: 20px 
+    padding:10px;
+
+
+}
+#mytable1{
+     background: #fff; border-radius: 9px; padding: 10px;
+}
+
+.set_med2{
+    background: #ccc; 
+    padding: 20px 30px;
+     color: #00f;
+      border-radius: 10px; 
+      font-family:italic;
+      font-size: 16px;
+}
+
+.set_med3{
+    background: #fff;margin: 20px 0px; padding: 20px 0px;
+}
+
+.set_med4{
+    background:#ccc; border-radius:8px; padding: 10px;
+}
+
+.set_med5{
+    background: #749B05; 
+    color: #fff; 
+    text-align: center; margin-bottom:4px; 
+    padding: 10px; 
+    border-radius:  15px 15px 2px 2px; 
+}
+
+.set_med6{
+    border-radius: 8px; background: #fff;
+}
+
+.set_med7{
+    color: #00f; font-size: 17px; margin-bottom: 12px;
+}
+
+.set_med8{
+    background: #fff; 
+    margin-bottom: 5px; 
+    padding: 3px 3px 3px 2px;
+}
+
+.set_med9{
+    margin-bottom: 20px padding:3px 0px 10px;
+    padding: 10px; 
+    background: #ccc;
+}
+
+.set_med10{
+    margin-top: 15px;
+}
+
+.set_med11{
+    margin: 15px;
+}
+
+.set_med12{
+    width: 100%; margin-left: -10px;  margin-right:0px;
+}
+.Search_set1{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.white{ color: #fff; }
+.but_set{
+    margin: 5px 30px 5px;
+}
+
+.width{
+    width: 40px margin-right:30px;
+}
+.form_set1{margin-top: -55px;}
+
+.msr_set{margin-top: 15px;}
+
+.ch_set{
+    margin-top: 15px;
+}
+
+.table_set1{
+    table-layout: fixed;
+    width: 500px;
+    padding: 20px !important;
+    margin:10px;
+     margin-top: -30px;
+
+}
+.tab_mset{
+    table-layout: fixed; width: 100%;
+}
+.bor_set{ border: 1px solid #ccc; padding: 3px;}
+
+.col_pro4{
+    float: right;
+}
+
+
+.xyz{ border-right: double !important;}
+
+.col_xyz{
+    width: 100%; 
+    margin-left: 15px; 
+    border: 1px solid #ccc; 
+    text-align: center;
+}
+
+
+.abc{
+    background: #fff; padding: 5px 20px;
+    text-align: left; margin-bottom: 2px;
+}
+
+.lx_set{ 
+    margin-left: 60%; margin-top: 20%;}
+
+.lx_set1{
+    border-collapse: separate; border-spacing:10px;
+}
+
+.mar_mtop{ margin-top: 10px; }
+.page_set1{ margin-left: 30px; }
+.ali_set{
+    margin-left: 40px;
+}
+.ch_manset{width: 100%; margin-bottom: 10px; }
+.corm_nmset{ margin-top: 20px; }
+.padd_set{ padding: 6px; }
+@media only screen and (min-width : 997px) {
+   .right_sre{
+      float: right;
+    }
+}
+@media only screen and (max-width : 996px) {
+   .right_sre{
+      float: left;
+    }
+}
+.abc_1{background: #fff; padding: 15px;}
+.abc_2{
+    padding: 7px; 
+    background: #00c0ef; 
+    color: #fff; 
+    border-radius: 10px !important;
+}
+.navbar-nav>.notifications-menu>.dropdown-menu>li .menu>li>a{
+        padding-left: 23px !important;
+    padding: 10px;
+    border-bottom: 1px solid #ccc !important;
+  }
+  .lef_set{
+    float: right !important ;
+  }
+
+
+.small-box .icon{top: 10px; right: 30px; font-size: 60px;} 
+.small-box > .inner {padding: 10px 20px;}
+
+.but_set2 {margin: 5px 20px;}
+.mL20{margin-left: 20px}
+.Search_set1 input{padding: 0 0 0 5px; height: 35px}
+.Search_set1 span{background: #00c0ef; padding: 9px 6px 11px; color: #fff; margin-left: -3px;}
+.fix_box{min-height: 500px;max-height: 500px;overflow-x: hidden;overflow-y: scroll;}
+.fix_box1{min-height: 370px;max-height: 370px;overflow-x: hidden;overflow-y: scroll;}
+.btn-info {background-color: #153547; border-color: #153547; padding: 5px 20px;}
+.text-sm {font-size: 14px;}
+.btn-success:hover, .btn-success:active, .btn-success.hover {background-color: #A11013; border-color: #A11013;}
+.mL15{margin-left:15px;}
+.forproduct{padding: 30px;
+    background: #eee;
+    margin-bottom: 20px; width: 100%;; float: left}
+.foradd{font-size: 18px; margin-left: 20px;}
+.foradd i{margin-right: 10px}
+.forimage li{width: 10%; margin: 0 30px 10px 0;}
+.forimage li img{width: 100%}
+.forimage li i{font-size: 70px}
+.composition_fields_container input{height:34px; padding:6px 12px;}
+.tree li.open a{background:#3c8dbc;}
+.pad14{padding: 0 14px}
+.forwd{width: 47%; float: left;}
+.forwd.mar{margin: 0 20px 0 0;}

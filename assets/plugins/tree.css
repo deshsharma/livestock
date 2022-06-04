@@ -1,0 +1,218 @@
+body {
+    font-family: Arial;
+}
+
+ul.tree li {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.tree li ul {
+    display: none;
+}
+
+ul.tree li.open > ul {
+    display: block;
+}
+
+ul.tree li a {
+    color: black;
+    text-decoration: none;
+}
+ul.tree li a:before {
+    height: 1em;
+    padding:0 .1em;
+    font-size: .8em;
+    display: block;
+    position: absolute;
+    left: -1.3em;
+    top: .2em;
+}
+ul.accordion2 {
+    list-style: none;
+    padding: 0;
+}
+ul.tree li > a:not(:last-child):before {
+    content: '+';
+    font-size: 25px;
+}
+
+ul.tree li.open > a:not(:last-child):before {
+    content: '-';
+    font-size: 25px;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ul.accordion2 li a.toggle {
+    width: 100%;
+    display: block;
+    background: #d9e1ea;
+    color: rgba(0, 0, 0, 0.78);
+    padding: 0.75em;
+    border-radius: 0.15em;
+    transition: background 0.3s ease;
+}
+a.tog{
+    width: 100%;
+    display: block;
+    background: #d9e1ea;
+    color: rgba(0, 0, 0, 0.78);
+    padding: 0.75em;
+    border-radius: 0.15em;
+    transition: background 0.3s ease;
+}
+ul.accordion2 .inner {
+    padding-left: 1em;
+    overflow: hidden;
+    display: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    /* color:#00baf2 */
+}
+ul.accordion2 {
+    list-style: none;
+    padding: 0;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul.accordion2 li a.toggle {
+    width: 100%;
+    display: block;
+    background: #d9e1ea;
+    color: rgba(0, 0, 0, 0.78);
+    padding: 0.75em;
+    border-radius: 0.15em;
+    transition: background 0.3s ease;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+ul.accordion2 li {
+    margin: 0.5em 0;
+    list-style: none;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+ul.accordion2 {
+    list-style: none;
+    padding: 0;
+}
+
+ul {
+    list-style-type: disc;
+}
+ul.accordion2 .inner.show {
+    /* display: block; */
+}
+ul.accordion2 .inner {
+    padding-left: 1em;
+    overflow: hidden;
+    display: none;
+}
+ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ul.accordion2 li {
+    margin: 0.5em 0;
+    list-style: none;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+ul.accordion2 {
+    list-style: none;
+    padding: 0;
+  }
+  ul.accordion2 .inner {
+    padding-left: 1em;
+    overflow: hidden;
+    display: none;
+  }
+  ul.accordion2 .inner.show {
+    /*display: block;*/
+  }
+  ul.accordion2 li {
+    margin: 0.5em 0;
+    list-style: none;    
+  }
+  ul.accordion2 li a.toggle {
+    width: 100%;
+    display: block;
+    background: #ceced6;
+    color: rgba(0, 0, 0, 0.78);
+    padding: 0.75em;
+    border-radius: 0.15em;
+    transition: background 0.3s ease;
+  }
+  ul.accordion2 li a.toggle:hover {
+    background: #f3e9e9;
+  }
+  a.tog:hover {
+    background: #f3e9e9;
+  }
+  /* a.tog a:before {
+    content: '+';
+    font-size: 25px;
+  } */
+
+  a.tree ul.open > a:not(:last-child):before {
+        content: '-';
+        font-size: 25px;
+ }
+  .ico{color:#00baf2; margin-right: 4px;}
